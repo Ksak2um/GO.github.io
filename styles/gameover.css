@@ -1,0 +1,38 @@
+.head__title { 
+    font-size: 150px;
+    letter-spacing: -0.1em;
+    line-height: 150px;
+    font-weight: 900; 
+    text-align: start;
+    padding: 0%;
+    margin: 0%;
+    padding-top: 100px;
+}
+
+.head__subtitle {
+    font-size: 28px;
+    line-height: 100%;
+    text-align: justify;
+    text-indent: 15%;
+    padding: 0%;
+    padding-right: 580px;
+}
+
+.head__subtitle::after  {
+    content: "";
+    background-image: url("../img/fakt.png") ;
+    width: 675px;
+    height: 762px;
+    position: absolute;
+    left: 520px;
+    top: 200px;
+}
+
+.head {
+    text-align: center;
+    max-width: 1180px;
+    height: 930px;
+    margin: 0 auto;
+    padding: 1em;
+    position: relative;
+}
